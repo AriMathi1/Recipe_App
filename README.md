@@ -1,9 +1,6 @@
 Method: Get : http://localhost:3000/recipes
 the method used in this API is GET. this will respond by retrieving all the data that is stored in the database in the folder named "recipes". in this project when this GET api is sent it will retrieve all the recipes if there are no recipes it will return an empty array. the status code for that will be 200
 
-
-hz8PdysQjr6Dqp4U
-
 Method: POST: http://localhost:3000/recipe
 
 Request Body should like the example below
