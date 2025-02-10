@@ -54,7 +54,7 @@ it will be used to retrieve details of a specific recipe by its unique ID.
 Status Codes will be 200: "Success" and 404: when "Recipe Not Found"
 The API will fetch and return complete details for a single recipe matching the provided ID.
 
-1. Method: PUT: https://recipe-app-057j.onrender.com/recipe/67aa90caa0c60f2254fec4bf
+Method: PUT: https://recipe-app-057j.onrender.com/recipe/67aa90caa0c60f2254fec4bf
 
 Request Body:
 {
