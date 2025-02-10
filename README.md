@@ -1,7 +1,7 @@
-Method: Get : http://localhost:3000/recipes
+Method: Get : https://recipe-app-057j.onrender.com/recipes
 the method used in this API is GET. this will respond by retrieving all the data that is stored in the database in the folder named "recipes". in this project when this GET api is sent it will retrieve all the recipes if there are no recipes it will return an empty array. the status code for that will be 200
 
-Method: POST: http://localhost:3000/recipe
+Method: POST: https://recipe-app-057j.onrender.com/recipe
 
 Request Body should like the example below
 title: req.body.title,
@@ -48,21 +48,19 @@ Status Codes will be 201: "Successfully Created"
 The API will take recipe details, validate them, and store a new recipe in the database.
 
 
-Method: GET: http://localhost:3000/recipe/id
+Method: GET: https://recipe-app-057j.onrender.com/recipe/67aa90caa0c60f2254fec4bf
 Requires specific recipe ID in URL. replace "id" with id value.
 it will be used to retrieve details of a specific recipe by its unique ID.
 Status Codes will be 200: "Success" and 404: when "Recipe Not Found"
 The API will fetch and return complete details for a single recipe matching the provided ID.
 
-1. Method: PUT: http://127.0.0.1:3000/recipe/id
+1. Method: PUT: https://recipe-app-057j.onrender.com/recipe/67aa90caa0c60f2254fec4bf
 
 Request Body:
 {
   "name": "string",
   "ingredients": ["string"],
   "instructions": "string",
-  "cookingTime": "string",
-  "difficulty": "string"
 }
 
 Expected Response:
@@ -81,7 +79,7 @@ Status Codes will be 200: "Successfully Updated"
 The API will update the recipe matching the provided ID with new information.
 
 
-Method: DELETE: http://localhost:3000/recipe/id
+Method: DELETE: https://recipe-app-057j.onrender.com/recipe/67aa90caa0c60f2254fec4bf
 Requires specific recipe ID in URL. replace "id" with id value.
 it will be used to remove a specific recipe from the database, delete unwanted or incorrect recipe entries.
 Status Codes will be 200: "Successfully Deleted" and 404: when "Recipe Not Found"
